@@ -18,7 +18,7 @@ import 'animate.css';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
-AOS.init();a
+AOS.init();
 
 import { BrowserRouter } from "react-router-dom";
 
