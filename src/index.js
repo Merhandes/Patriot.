@@ -16,9 +16,9 @@ import './dist/css/quiz.css'
 import './dist/css/kemerdekaan.css'
 import 'animate.css';
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-// AOS.init();
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 import { BrowserRouter } from "react-router-dom";
 
