@@ -17,7 +17,7 @@ import './dist/css/kemerdekaan.css'
 import 'animate.css';
 
 import AOS from "aos";
-import "aos/dist/aos.css";
+import "aos/dist/aos.css";a
 AOS.init();
 
 import { BrowserRouter } from "react-router-dom";
