@@ -1,0 +1,73 @@
+header{
+    background: #c6ffdd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.homepage .header-box h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--color-text);
+    --animate-delay: 0.6s;
+}
+
+.homepage .header-box h1 span{
+    font-weight: 700;
+}
+
+.homepage .header-box p{
+    line-height: 2;
+    color: var(--color-text);
+    font-weight: 500;
+    --animate-delay: 1s;
+}
+
+.homepage .header-box button{
+    --animate-delay: 1.4s;
+}
+
+.homepage .header-box img{
+    width: 100%;
+}
+
+@media screen and (max-width: 992px) {
+    .homepage .header-box {
+        padding-top: 8rem;
+    }
+
+    .homepage .header-box img{
+        width: 400px;
+        display: block;
+        margin-inline: auto;
+    } 
+}
+
+@media screen and (max-width: 575px ){
+    .homepage .header-box h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .homepage .header-box h1{
+        font-size: 2.4rem;
+    }
+    
+    .homepage .header-box p{
+        font-size: 14px;
+    }
+
+    .homepage .header-box img{
+        width: 300px;
+    }
+
+    @media screen and(max-width: 375){
+        .homepage .header-box h1{
+            font-size: 2rem;
+        }
+        
+        .homepage .header-box p{
+            font-size: 12px;
+        }
+    }
+}

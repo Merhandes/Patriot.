@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route} from 'react-router-dom';
 
+import NavbarComponent from './components/NavbarComponent';
+import FooterComponent from './components/FooterComponent';
+
+import HomePage from './pages/HomePage';
+import PenjajahanBelandaPage from './pages/PenjajahanBelandaPage';
+import PenjajahanJepangPage from './pages/PenjajahanJepangPage';
+import QuizPage from './pages/QuizPage';
+import KemerdekaanPage from './pages/KemerdekaanPage';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NavbarComponent />
+
+      <Routes>
+        <Route path="/" Component={HomePage} />
+        <Route path="/penjajahanbelanda" Component={PenjajahanBelandaPage} />
+        <Route path="/penjajahanjepang" Component={PenjajahanJepangPage} />
+        <Route path="/kemerdekaan" Component={KemerdekaanPage} />
+        <Route path="/quiz" Component={QuizPage} />
+      </Routes>
+
+      <FooterComponent />
     </div>
   );
 }

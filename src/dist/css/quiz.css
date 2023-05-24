@@ -1,0 +1,37 @@
+.syarat-ketentuan-page .syarat-ketentuan{
+    padding-top: 150px;
+    background-color: var(--primary-color);
+}
+
+.syarat-ketentuan-page .syarat-ketentuan h1{
+    --animate-delay: 0.5s;
+}
+
+.syarat-ketentuan-page .syarat-ketentuan p{
+    line-height: 2;
+}
+/* STYLE SYARA & KETENTUAN */
+
+/* STYLE FAQ */
+.faq{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--primary-color);
+}
+
+.faq h2{
+    color: var(--color-text);
+    --animate-delay: 0.5s;
+}
+
+.faq .accordion .accordion-button{
+    color : var(--color-text);
+    font-weight: bold; 
+    background-color: #ffffff;
+    line-height: 1.5;
+}
+
+.faq .accordion .accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
