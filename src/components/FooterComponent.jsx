@@ -8,7 +8,10 @@ const FooterComponent = () => {
         <Row className="d-flex justify-content-between">
           <Col lg="5">
             <h3 className="fw-bold">Patriot.</h3>
-            <p className="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consectetur accusantium voluptatibus optio deserunt repellendus ratione laboriosam modi expedita illum.</p>
+            <p className="desc">Sebuah kisah kepahlawanan para pejuang pada masa sebelum dan
+              sesudah kemerdekaan. Tidak banyak yang tahu meskipun jasa mereka
+              sungguh besar bagi tanah air Indonesia. Jangan sekali-kali
+              melupakan sejarah.</p>
           <div className="no mb-1 mt-4">
             <Link className="text-decoration-none">
             <i className="fa-brands fa-whatsapp"></i>
