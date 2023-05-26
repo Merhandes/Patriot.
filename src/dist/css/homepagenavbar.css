@@ -1,9 +1,9 @@
-header{
-    background: #c6ffdd; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f7797d, #fbd786, #c6ffdd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
+header {
+    background: #00ecff; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left,   #00ecff, #b5deb5,#e7d980); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #00ecff,#b5deb5,#e7d980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
 .homepage .header-box h1 {
     font-size: 3.2rem;
     font-weight: 600;
