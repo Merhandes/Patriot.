@@ -14,7 +14,7 @@ const Kemerdekaan = () => {
                 Semua Pahlawan Pasca Kemerdekaan
               </h1>
               <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Berikut adalah List Pahlawan Pasca Kemerdekaan.
               </p>
             </Col>
           </Row>

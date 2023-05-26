@@ -14,7 +14,7 @@ const PenjajahanJepang = () => {
                 Semua Pahlawan Penjajahan Jepang
               </h1>
               <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Berikut adalah List Pahlawan Penjajahan Jepang.
               </p>
             </Col>
           </Row>

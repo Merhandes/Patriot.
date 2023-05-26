@@ -14,7 +14,7 @@ const PenjajahanBelanda = () => {
                 Semua Pahlawan Penjajahan Belanda
               </h1>
               <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Berikut adalah List Pahlawan Penjajahan Belanda.
               </p>
             </Col>
           </Row>
