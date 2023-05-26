@@ -13,7 +13,7 @@ import "../dist/css/quiz.css";
 import data from "../components/data.json";
 
 /** Used to compare against user's chosen answers */
-const correctAnswers = [2, 0, 0, 0, 0, 1, 0, 2, 1, 1];
+const correctAnswers = [0, 0, 1, 0, 2, 1, 1, 0, 0, 1];
 const totalQuestions = data.results.length;
 
 export default function App() {
