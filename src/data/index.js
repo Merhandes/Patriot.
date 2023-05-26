@@ -1,404 +1,383 @@
-import KelasImage1 from "../assets/img/kelas/kelas-1.jpg";
-import KelasImage2 from "../assets/img/kelas/kelas-2.jpg";
-import KelasImage3 from "../assets/img/kelas/kelas-3.jpg";
-import KelasImage4 from "../assets/img/kelas/kelas-4.jpg";
-import KelasImage5 from "../assets/img/kelas/kelas-5.jpg";
-import KelasImage6 from "../assets/img/kelas/kelas-6.jpg";
-import KelasImage7 from "../assets/img/kelas/kelas-7.jpg";
-import KelasImage8 from "../assets/img/kelas/kelas-8.jpg";
-import KelasImage9 from "../assets/img/kelas/kelas-9.jpg";
+import PahlawanImage1 from "../assets/img/pahlawan/pahlawan-1.jpg";
+import PahlawanImage2 from "../assets/img/pahlawan/pahlawan-2.jpg";
+import PahlawanImage3 from "../assets/img/pahlawan/pahlawan-3.jpg";
+import PahlawanImage4 from "../assets/img/pahlawan/pahlawan-4.jpg";
+import PahlawanImage5 from "../assets/img/pahlawan/pahlawan-5.jpg";
+import PahlawanImage6 from "../assets/img/pahlawan/pahlawan-6.jpg";
+import PahlawanImage7 from "../assets/img/pahlawan/pahlawan-7.jpg";
+import PahlawanImage8 from "../assets/img/pahlawan/pahlawan-8.jpg";
+import PahlawanImage9 from "../assets/img/pahlawan/pahlawan-9.jpg";
+import PahlawanImage10 from "../assets/img/pahlawan/pahlawan-10.jpg";
+import PahlawanImage11 from "../assets/img/pahlawan/pahlawan-11.jpg";
+import PahlawanImage12 from "../assets/img/pahlawan/pahlawan-12.jpg";
+import PahlawanImage13 from "../assets/img/pahlawan/pahlawan-13.jpg";
+import PahlawanImage14 from "../assets/img/pahlawan/pahlawan-14.jpg";
 
-import People1 from "../assets/img/testimonial/people-1.jpg";
-import People2 from "../assets/img/testimonial/people-2.jpg";
-import People3 from "../assets/img/testimonial/people-3.jpg";
+import Fikri from "../assets/img/anggota/Fikri.jpg";
+import Kevin from "../assets/img/anggota/Kevin.jpg";
+import Handes from "../assets/img/anggota/Handes.jpg";
+import Marcel from "../assets/img/anggota/Marcel.jpg";
 
 export const navLinks = [
   {
     id: 1,
     path: "",
-    text: "Home",
+    text: "Home"
   },
   {
     id: 2,
     path: "penjajahanbelanda",
-    text: "Penjajahan Belanda",
+    text: "Penjajahan Belanda"
   },
   {
     id: 3,
     path: "penjajahanjepang",
-    text: "Penjajahan Jepang",
+    text: "Penjajahan Jepang"
   },
   {
     id: 4,
     path: "kemerdekaan",
-    text: "Kemerdekaan",
+    text: "Kemerdekaan"
   },
   {
     id: 5,
     path: "quiz",
-    text: "Quiz",
-  },
+    text: "Quiz"
+  }
 ];
 
-export const semuaKelas = [
+export const semuaPahlawan = [
   {
     id: 1,
-    image: KelasImage1,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "Character Illustration with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
+    image: PahlawanImage1,
+    title: "Pangeran Diponegoro",
+    wilayah: "(Yogyakarta, Jawa)",
+    descripion:
+      "Putra Dari Sultan Yogyakarta, melangsungkan perang lima tahun melawan pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "",
+    url: "https://id.wikipedia.org/wiki/Diponegoro"
+  },
+  {
+    id: 2,
+    image: PahlawanImage2,
+    title: "Sisingamangaraja XII",
+    wilayah: "(Tapanuli, Sumatra)",
+    descripion:
+      "Pemimpin Batak yang melakukan kampanye gerilyawan melawan pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "200"
+  },
+  {
+    id: 3,
+    image: PahlawanImage3,
+    title: "Sultan Hassanuddin",
+    wilayah: "(Makassar, Sulawesi)",
+    descripion:
+      "Dijuluki Ayam Jantan dari Timur oleh Belanda, beliau melakukan perlawanan terhadap pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "400"
+  },
+  {
+    id: 4,
+    image: PahlawanImage4,
+    title: "I Gusti Ketut Jelantik",
+    wilayah: "(Bali)",
+    descripion:
+      "Pemimpin Bali yang melakukan perlawanan terhadap pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 5,
+    image: PahlawanImage5,
+    title: "Kapitan Pattimura",
+    wilayah: "(Ambon, Maluku)",
+    descripion:
+      "Ia adalah pahlawan yang berjuang untuk Maluku melawan VOC Belanda, mantan sersan di militer Inggris.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 6,
+    image: PahlawanImage6,
+    title: "Zainal Mustofa",
+    wilayah: "(Tasikmalaya, Jawa)",
+    descripion:
+      "Pemimpin Islam yang melakukan perlawanan terhadap pasukan pendudukan Jepang.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 7,
+    image: PahlawanImage7,
+    title: "Soeprijadi",
+    wilayah: "(Blitar, Jawa)",
+    descripion:
+      "Selama masa pendudukan Jepang di Indonesia, ia menjadi pemimpin pemberontakan milisi PETA di Blitar.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 8,
+    image: PahlawanImage8,
+    title: "Bung Tomo",
+    wilayah: "(Surabaya, Jawa)",
+    descripion:
+      "Pemimpin militer yang memimpin perlawanan dalam Pertempuran Surabaya.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 9,
+    image: PahlawanImage9,
+    title: "Jenderal Soedirman",
+    wilayah: "(Ambarawa, Jawa)",
+    descripion:
+      "Komandan Ketua Tentara Nasional Indonesia pada saat Revolusi Nasional, sosok yang dihormati di Indonesia.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 10,
+    image: PahlawanImage10,
+    title: "I Gusti Ngurah Rai",
+    wilayah: "(Bali)",
+    descripion:
+      "Memimpin militer Bali saat Revolusi Nasional langsung perlawanan bersenjata anti-Belanda di Bali. ",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 11,
+    image: PahlawanImage11,
+    title: "Djamin Ginting",
+    wilayah: "(Medan, Sumatra)",
+    descripion:
+      "Pejuang kemerdekaan menentang pemerintah Hindia Belanda di Tanah Karo.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  },
+  {
+    id: 12,
+    image: PahlawanImage12,
+    title: "Yos Sudarso",
+    wilayah: "(Papua)",
+    descripion:
+      "Komodor Angkatan Laut; terbunuh saat konfrontasi dengan Belanda di Nugini Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  }
+];
+
+export const PahlawanBelanda = [
+  {
+    id: 1,
+    image: PahlawanImage1,
+    title: "Pangeran Diponegoro",
+    wilayah: "(Yogyakarta, Jawa)",
+    descripion:
+      "Putra Dari Sultan Yogyakarta, melangsungkan perang lima tahun melawan pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
     delay: "1300",
+    url: "https://id.wikipedia.org/wiki/Diponegoro"
   },
   {
     id: 2,
-    image: KelasImage2,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "UI UX Website Design for Beginner with Figma",
-    price: "Rp. 340.000",
-    buy: "Beli Kelas",
-    delay: "1600",
+    image: PahlawanImage2,
+    title: "Sisingamangaraja XII",
+    wilayah: "(Tapanuli, Sumatra)",
+    descripion:
+      "Pemimpin Batak yang melakukan kampanye gerilyawan melawan pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "1600"
   },
   {
     id: 3,
-    image: KelasImage3,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Web Developer Bootstrap 5",
-    price: "Rp. 280.000",
-    buy: "Beli Kelas",
-    delay: "1900",
+    image: PahlawanImage3,
+    title: "Sultan Hassanuddin",
+    wilayah: "(Makassar, Sulawesi)",
+    descripion:
+      "Dijuluki Ayam Jantan dari Timur oleh Belanda, beliau melakukan perlawanan terhadap pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "1900"
   },
   {
     id: 4,
-    image: KelasImage4,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Logo with Adobe Illustrator",
-    price: "Rp. 420.000",
-    buy: "Beli Kelas",
-    delay: "",
+    image: PahlawanImage4,
+    title: "I Gusti Ketut Jelantik",
+    wilayah: "(Bali)",
+    descripion:
+      "Pemimpin Bali yang melakukan perlawanan terhadap pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: ""
   },
   {
     id: 5,
-    image: KelasImage5,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "3D Modelling for Beginner with 3D Blender",
-    price: "Rp. 380.000",
-    buy: "Beli Kelas",
-    delay: "300",
-  },
-  {
-    id: 6,
-    image: KelasImage6,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Icon Design with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
-    delay: "600",
-  },
-  {
-    id: 7,
-    image: KelasImage7,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "Design Vektor with Corel Draw CC for Beginner",
-    price: "Rp. 340.000",
-    buy: "Beli Kelas",
-    delay: "",
-  },
-  {
-    id: 8,
-    image: KelasImage8,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "UI UX Design with Adobe XD for Beginner",
-    price: "Rp. 400.000",
-    buy: "Beli Kelas",
-    delay: "300",
-  },
-  {
-    id: 9,
-    image: KelasImage9,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "Mastering Mobile Developer with Flutter",
-    price: "Rp. 320.000",
-    buy: "Beli Kelas",
-    delay: "600",
-  },
+    image: PahlawanImage5,
+    title: "Kapitan Pattimura",
+    wilayah: "(Ambon, Maluku)",
+    descripion:
+      "Ia adalah pahlawan yang berjuang untuk Maluku melawan VOC Belanda, mantan sersan di militer Inggris.",
+    button: "Lihat Selengkapnya",
+    delay: "300"
+  }
 ];
 
-export const kelasTerbaru = [
+export const pahlawanJepang = [
   {
     id: 1,
-    image: KelasImage1,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star-half-stroke",
-    title: "Character Illustration with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
-    delay: "",
+    image: PahlawanImage6,
+    title: "Zainal Mustofa",
+    wilayah: "(Tasikmalaya, Jawa)",
+    descripion:
+      "Pemimpin Islam yang melakukan perlawanan terhadap pasukan pendudukan Jepang.",
+    button: "Lihat Selengkapnya",
+    delay: "1300"
   },
   {
     id: 2,
-    image: KelasImage2,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "UI UX Website Design for Beginner with Figma",
-    price: "Rp. 340.000",
-    buy: "Beli Kelas",
-    delay: "200",
+    image: PahlawanImage7,
+    title: "Soeprijadi",
+    wilayah: "(Blitar, Jawa)",
+    descripion:
+      "Selama masa pendudukan Jepang di Indonesia, ia menjadi pemimpin pemberontakan milisi PETA di Blitar.",
+    button: "Lihat Selengkapnya",
+    delay: "1600"
   },
   {
     id: 3,
-    image: KelasImage3,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Web Developer Bootstrap 5",
-    price: "Rp. 280.000",
-    buy: "Beli Kelas",
-    delay: "400",
+    image: PahlawanImage13,
+    title: "Teuku Abdul Hamid Azwar",
+    wilayah: "(Aceh)",
+    descripion:
+      "Memimpin gerilyawan Aceh dalam serangan dan sabotase terhadap pasukan pendudukan Jepang.",
+    button: "Lihat Selengkapnya",
+    delay: "1900"
   },
   {
     id: 4,
-    image: KelasImage4,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Logo with Adobe Illustrator",
-    price: "Rp. 420.000",
-    buy: "Beli Kelas",
-    delay: "",
-  },
-  {
-    id: 5,
-    image: KelasImage5,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "3D Modelling for Beginner with 3D Blender",
-    price: "Rp. 380.000",
-    buy: "Beli Kelas",
-    delay: "200",
-  },
-  {
-    id: 6,
-    image: KelasImage6,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Icon Design with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
-    delay: "400",
-  },
+    image: PahlawanImage14,
+    title: "Haji Madriyan",
+    wilayah: "(Indramayu, Jawa)",
+    descripion:
+      "Memimpin rakyat Indramayu dalam melawan kekejaman pasukan pendudukan Jepang.",
+    button: "Lihat Selengkapnya",
+    delay: ""
+  }
 ];
 
-export const testimonial = [
+export const pahlawanKemerdekaan = [
   {
     id: 1,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 1",
-    skill: "UI UX Designer",
+    image: PahlawanImage8,
+    title: "Bung Tomo",
+    wilayah: "(Surabaya, Jawa)",
+    descripion:
+      "Pemimpin militer yang memimpin perlawanan dalam Pertempuran Surabaya.",
+    button: "Lihat Selengkapnya",
+    delay: "1300"
   },
   {
     id: 2,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 2",
-    skill: "Flutter Developer",
+    image: PahlawanImage9,
+    title: "Jenderal Soedirman",
+    wilayah: "(Ambarawa, Jawa)",
+    descripion:
+      "Komandan Ketua Tentara Nasional Indonesia pada saat Revolusi Nasional, sosok yang dihormati di Indonesia.",
+    button: "Lihat Selengkapnya",
+    delay: "1600"
   },
   {
     id: 3,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 3",
-    skill: "Web Developer",
+    image: PahlawanImage10,
+    title: "I Gusti Ngurah Rai",
+    wilayah: "(Bali)",
+    descripion:
+      "Memimpin militer Bali saat Revolusi Nasional langsung perlawanan bersenjata anti-Belanda di Bali.",
+    button: "Lihat Selengkapnya",
+    delay: "1900"
   },
   {
     id: 4,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 4",
-    skill: "UI UX Designer",
+    image: PahlawanImage11,
+    title: "Djamin Ginting",
+    wilayah: "(Medan, Sumatra)",
+    descripion:
+      "Pejuang kemerdekaan menentang pemerintah Hindia Belanda di Tanah Karo.",
+    button: "Lihat Selengkapnya",
+    delay: ""
   },
   {
     id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 5",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 6,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 6",
-    skill: "Web Developer",
-  },
-  {
-    id: 7,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 7",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 8,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 8",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 9,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 9",
-    skill: "Web Developer",
-  },
+    image: PahlawanImage12,
+    title: "Yos Sudarso",
+    wilayah: "(Papua)",
+    descripion:
+      "Komodor Angkatan Laut; terbunuh saat konfrontasi dengan Belanda di Nugini Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "300"
+  }
 ];
 
 export const dataSwiper = [
   {
     id: 1,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 1",
-    skill: "UI UX Designer",
+    desc: "Mahasiswa Jurusan Informatika Tahun 2022 PTI Kelas IL - Kelompok 7",
+    image: Marcel,
+    name: "Marcellus Eugene Kaparang",
+    skill: "00000082420"
   },
   {
     id: 2,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 2",
-    skill: "Flutter Developer",
+    desc: "Mahasiswa Jurusan Informatika Tahun 2022 PTI Kelas IL - Kelompok 7",
+    image: Kevin,
+    name: "Farrelius Kevin",
+    skill: "00000081783"
   },
   {
     id: 3,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 3",
-    skill: "Web Developer",
+    desc: "Mahasiswa Jurusan Informatika Tahun 2022 PTI Kelas IL - Kelompok 7",
+    image: Fikri,
+    name: "Muhammad Fikri Rouzan Ash Shidik",
+    skill: "00000081083"
   },
   {
     id: 4,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People1,
-    name: "People 4",
-    skill: "UI UX Designer",
-  },
-  {
-    id: 5,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People2,
-    name: "People 5",
-    skill: "Flutter Developer",
-  },
-  {
-    id: 6,
-    desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, saepe a. Quod eos non, dolores sapiente dicta quam esse reprehenderit explicabo vitae nesciunt ut laborum harum, vel optio corporis voluptatem?",
-    image: People3,
-    name: "People 6",
-    skill: "Web Developer",
-  },
+    desc: "Mahasiswa Jurusan Informatika Tahun 2022 PTI Kelas IL - Kelompok 7",
+    image: Handes,
+    name: "Merhandes Gunawan",
+    skill: "00000081070"
+  }
 ];
 
 export const faq = [
   {
     id: 1,
     eventKey: 0,
-    title: "Apakah ini Berlangganan?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Apa Yang Mendasari Peringatan Hari Pahlawan?",
+    desc:
+      "Hari Pahlawan dilatarbelakangi peristiwa Pertempuran Surabaya pada 10 November 1945. Peristiwa tersebut menjadi simbol kekuatan dan perlawanan, atas hak kemerdekaan Indonesia yang hendak direnggut kembali oleh penjajah."
   },
   {
     id: 2,
     eventKey: 1,
-    title: "Bagaimana Sistem Belajarnya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Kapan Terjadinya Hari Pahlawan?",
+    desc:
+      "Dengan Memperingati Hari Pahlawan 10 November untuk mengingat pertempuran Surabaya yang terjadi pada 1945. Peristiwa tersebut diawali insiden perobekan Bendera Merah Putih Biru di atas Hotel Yamato pada 19 September 1945."
   },
   {
     id: 3,
     eventKey: 2,
-    title: "Apakah Boleh di Share ke Orang Lain?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
+    title: "Siapa Yang Memutuskan 10 November Sebagai Hari Pahlawan?",
+    desc:
+      "Mengingat semangat perjuangan para pahlawan Indonesia saat itu, Presiden Soekarno menetapkan 10 November sebagai Hari Pahlawan. Hari Pahlawan ditetapkan melalui Keppres Nomor 316 Tahun 1959 tanggal 16 Desember 1959."
   },
   {
     id: 4,
     eventKey: 3,
-    title: "Apakah Ada Grup Diskusi?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
-  },
-  {
-    id: 5,
-    eventKey: 4,
-    title: "Apakah dapat di Akses Selamanya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
-  },
-  {
-    id: 6,
-    eventKey: 5,
-    title: "Apakah ada Mentornya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
-  },
-  {
-    id: 7,
-    eventKey: 6,
-    title: "Apakah Saya Boleh Mendownload Videonya?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
-  },
-  {
-    id: 8,
-    eventKey: 7,
-    title: "Apakah boleh ganti Kelas ketika sudah Membeli?",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodoconsequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estlaborum.",
-  },
+    title: "Dimana Tempat Terjadinya Hari Pahlawan?",
+    desc:
+      "Pada tanggal 10 November 1945 terjadi pertempuran di Surabaya yang merupakan pertempuran besar antara pihak tentara Indonesia dan pasukan Inggris. Pertempuran ini dilakukan untuk mempertahankan kedaulatan NKRI."
+  }
 ];

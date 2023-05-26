@@ -1,41 +1,63 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { testimonial } from '../data/index';
+import { pahlawanJepang } from "../data/index";
 
 import FaqComponent from "../components/FaqComponent";
 
-const TestimonialPage = () => {
+const PenjajahanJepang = () => {
   return (
-    <div className="testimonial-page">
-      <div className="testimonial">
+    <div className="kelas-page">
+      <div className="kelas min-vh-100">
         <Container>
-          <Row className="mb-5">
+          <Row>
             <Col>
-            <h1 className="text-center fw-bold animate__animated animate__fadeInUp animate__delay-1s">Semua Testimonial</h1>
-            <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, esse.</p>
+              <h1 className="fw-bold text-center animate__animated animate__fadeInUp animate__delay-1s">
+                Semua Pahlawan Penjajahan Jepang
+              </h1>
+              <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
             </Col>
           </Row>
-          <Row className="row-cols-lg-3 row-cols-1">
-          {testimonial.map((data) =>{
-          return(
-            <Col key={data.id} className="mb-5">
-              <p className="desc shadow-sm">{data.desc}</p>
-              <div className="people">
-                <img src={data.image} alt="" />
-                <div>
-                  <h5 className="mb-1">{data.name}</h5>
-                  <p className="m-0 fw-bold">{data.skill}</p>
-                </div>
-              </div>
-            </Col>
-          );
-        })}
+          <Row>
+            {pahlawanJepang.map((pahlawan) => {
+              return (
+                <Col
+                  key={pahlawan.id}
+                  className="shadow rounded"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay={pahlawan.delay}
+                >
+                  <img
+                    src={pahlawan.image}
+                    alt="unsplash.com"
+                    className="w-100 mb-3 rounded-top"
+                  />
+                  <h5 className="mb-3 px-3 text-center">
+                    {pahlawan.title}
+                    <br></br>
+                    {pahlawan.wilayah}
+                  </h5>
+                  <p className="px-3 pb-3 text-justify">
+                    {pahlawan.descripion}
+                  </p>
+                  <div className="ket justify-content-between align-items-center px-3 pb-4 text-center">
+                    <button
+                      className="btn btn-danger rounded-1"
+                      href={pahlawan.url}
+                    >
+                      {pahlawan.button}
+                    </button>
+                  </div>
+                </Col>
+              );
+            })}
           </Row>
         </Container>
       </div>
-
       <FaqComponent />
     </div>
-  )
-}
+  );
+};
 
-export default TestimonialPage
+export default PenjajahanJepang;
