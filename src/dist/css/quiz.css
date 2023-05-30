@@ -15,11 +15,16 @@
   }
   
   button {
-    border: 1px solid black;
+    border: 5px solid #dc3545;
+    color: white;
     padding: 0.5rem 1rem;
-    border-radius: 0.2rem;
+    border-radius: 10px;
     cursor: pointer;
     font-size: 1rem;
+    background-color: #dc3545;
+  }
+  .btn-group > button:last-of-type {
+    margin-left: 0.5rem;
   }
   
   .btn-group,
@@ -40,42 +45,3 @@
     line-height: 2rem;
   }
   
-  .btn-group > button:last-of-type {
-    margin-left: 0.5rem;
-  }
-
-.syarat-ketentuan-page .syarat-ketentuan{
-    padding-top: 150px;
-    background-color: var(--primary-color);
-}
-
-.syarat-ketentuan-page .syarat-ketentuan h1{
-    --animate-delay: 0.5s;
-}
-
-.syarat-ketentuan-page .syarat-ketentuan p{
-    line-height: 2;
-}
-
-.faq{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: var(--primary-color);
-}
-
-.faq h2{
-    color: var(--color-text);
-    --animate-delay: 0.5s;
-}
-
-.faq .accordion .accordion-button{
-    color : var(--color-text);
-    font-weight: bold; 
-    background-color: #ffffff;
-    line-height: 1.5;
-}
-
-.faq .accordion .accordion-button:focus{
-    border: none;
-    box-shadow: none;
-}
