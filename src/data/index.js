@@ -193,13 +193,13 @@ export const semuaPahlawan = [
   {
     id: 14,
     image: PahlawanImage14,
-    title: "Haji Madriyan",
-    wilayah: "(Indramayu, Jawa)",
+    title: "Tan Malaka",
+    wilayah: "(Bandung, Jawa)",
     descripion:
-      "Memimpin rakyat Indramayu dalam melawan kekejaman pasukan pendudukan Jepang.",
+      "Mendirikan organisasi GRINDULO untuk melakukan perlawanan terhadap penjajahan Jepang.",
     button: "Lihat Selengkapnya",
     delay: "300",
-    url: "https://ipsgampang.blogspot.com/2023/04/haji-madriyan-h-madriyas.html"
+    url: "https://id.wikipedia.org/wiki/Tan_Malaka"
   }
 ];
 
@@ -298,13 +298,13 @@ export const pahlawanJepang = [
   {
     id: 4,
     image: PahlawanImage14,
-    title: "Haji Madriyan",
-    wilayah: "(Indramayu, Jawa)",
+    title: "Tan Malaka",
+    wilayah: "(Bandung, Jawa)",
     descripion:
-      "Memimpin rakyat Indramayu dalam melawan kekejaman pasukan pendudukan Jepang.",
+      "Mendirikan organisasi GRINDULO untuk melakukan perlawanan terhadap penjajahan Jepang.",
     button: "Lihat Selengkapnya",
     delay: "",
-    url: "https://ipsgampang.blogspot.com/2023/04/haji-madriyan-h-madriyas.html"
+    url: "https://id.wikipedia.org/wiki/Tan_Malaka"
   }
 ];
 
@@ -378,7 +378,6 @@ export const dataSwiper = [
   {
     id: 2,
     add: "Jurusan Informatika Tahun 2022",
-
     desc: "Universitas Multimedia Nusantara",
     image: Kevin,
     name: "Farrelius Kevin",
@@ -387,7 +386,6 @@ export const dataSwiper = [
   {
     id: 3,
     add: "Jurusan Informatika Tahun 2022",
-
     desc: "Universitas Multimedia Nusantara",
     image: Fikri,
     name: "Muhammad Fikri Rouzan Ash Shidik",
@@ -396,7 +394,6 @@ export const dataSwiper = [
   {
     id: 4,
     add: "Jurusan Informatika Tahun 2022",
-
     desc: "Universitas Multimedia Nusantara",
     image: Handes,
     name: "Merhandes Gunawan",
