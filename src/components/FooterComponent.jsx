@@ -39,9 +39,9 @@ const FooterComponent = () => {
             <h5 className="fw-bold mb-3">Subscribe untuk info Menarik</h5>
             <div className="subscribes">
               <input type="text" placeholder="Subscribe..." />
-              <button className="btn btn-danger rounded-end-0">
+              <a className="btn btn-danger rounded-end-0" href="https://www.youtube.com/@Jokowi">
                 Subscribe
-              </button>
+              </a>
             </div>
             <div className="social mt-3">
               <a
