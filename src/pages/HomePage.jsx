@@ -82,7 +82,7 @@ const HomePage = () => {
             </Col>
           </Row>
           <Row>
-            {products.map((pahlawan) => {
+            {semuaPahlawan.map((pahlawan) => {
               return (
                 <Col
                   key={pahlawan.id}
