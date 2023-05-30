@@ -7,11 +7,9 @@ import FaqComponent from "../components/FaqComponent";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
-// import required modules
 import { Pagination } from "swiper";
 
 import { useEffect, useState } from "react";
@@ -92,24 +90,22 @@ const HomePage = () => {
                   data-aos-delay={pahlawan.delay}
                 >
                   <img
-                    src="https://kompaspedia.kompas.id/wp-content/uploads/2020/02/Soekarno_sq-1-e1585486258865.jpg"
+                    src={pahlawan.image}
                     alt="unsplash.com"
                     className="w-100 mb-3 rounded-top"
                   />
                   <h5 className="mb-3 px-3 text-center">
-                    {pahlawan.name}
-                    <br></br>Birthday: {pahlawan.birth_year}
+                    {pahlawan.title}
+                    <br></br>
+                    {pahlawan.wilayah}
                   </h5>
                   <p className="px-3 pb-20 text-justify">
-                    {pahlawan.description}
+                    {pahlawan.descripion}
                   </p>
                   <div className="ket justify-content-between align-items-center px-3 pb-4 text-center">
-                    <button
-                      className="btn btn-danger rounded-1"
-                      href={pahlawan.url}
-                    >
+                    <a className="btn btn-danger rounded-1" href={pahlawan.url}>
                       Lihat Selengkapnya
-                    </button>
+                    </a>
                   </div>
                 </Col>
               );
@@ -126,9 +122,9 @@ const HomePage = () => {
                 Penjajahan Belanda
                 <i className="fa-solid fa-chevron-right ms-3"></i>
               </button>
-              &nbsp;&nbsp;
+
               <button
-                className="btn btn-success rounded-5 btn-lg"
+                className="btn btn-success rounded-5 btn-lg mx-3 my-3 mt-3 mb-3 "
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 onClick={() => navigate("/penjajahanjepang")}
@@ -136,7 +132,7 @@ const HomePage = () => {
                 Penjajahan Jepang
                 <i className="fa-solid fa-chevron-right ms-3"></i>
               </button>
-              &nbsp;&nbsp;
+
               <button
                 className="btn btn-success rounded-5 btn-lg"
                 data-aos="fade-up"
@@ -187,6 +183,7 @@ const HomePage = () => {
               {dataSwiper.map((data) => {
                 return (
                   <SwiperSlide key={data.id} className="shadow-sm">
+                    <p className="add">{data.add}</p>
                     <p className="desc">{data.desc}</p>
                     <div className="people">
                       <img src={data.image} alt="" />
