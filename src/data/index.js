@@ -187,7 +187,7 @@ export const semuaPahlawan = [
     descripion:
       "Memimpin gerilyawan Aceh dalam serangan dan sabotase terhadap pasukan pendudukan Jepang.",
     button: "Lihat Selengkapnya",
-    delay: "1900",
+    delay: "",
     url: "https://id.wikipedia.org/wiki/Teuku_Abdul_Hamid_Azwar"
   },
   {
