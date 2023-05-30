@@ -7,12 +7,11 @@ import {
   calculateResult
 } from "../components/utilities";
 import { Store, useAppContext } from "../components/AppContext";
-// - Style
+
 import "../dist/css/quiz.css";
-// - Data
+
 import data from "../components/data.json";
 
-/** Used to compare against user's chosen answers */
 const correctAnswers = [0, 0, 1, 0, 2, 1, 1, 0, 0, 1];
 const totalQuestions = data.results.length;
 
@@ -151,9 +150,6 @@ function Finish() {
     </Fragment>
   );
 
-  /** Questions answered out of sequence will cause array to have `undefineds`
-   * this variable counts the length with those filtered out
-   */
   const answeredQuestions = chosenAnswers.filter((ar) => ar !== undefined)
     .length;
 
