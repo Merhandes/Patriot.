@@ -31,7 +31,7 @@ const FooterComponent = () => {
             <Link to="penjajahanbelanda">Penjajahan Belanda</Link>
             <Link to="penjajahanjepang">Penjajahan Jepang</Link>
             <Link to="kemerdekaan">Kemerdekaan</Link>
-            <Link to="quiz">About Us</Link>
+            <Link to="quiz">Quiz</Link>
           </Col>
           <Col lg="4" className="mt-lg-0 mt-5">
             <h5 className="fw-bold mb-3">Subscribe untuk info Menarik</h5>
