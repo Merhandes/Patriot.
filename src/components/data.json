@@ -17,9 +17,13 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Apakah Indonesia pernah dijajah oleh bangsa Jerman?",
-      "correct_answer": "Salah",
-      "incorrect_answers": ["Benar", "Mungkin", "Tanya Google"]
+      "question": "Pahlawan yang berpartisipasi dalam pertempuran Puputan Margarana untuk melawan pasukan Belanda 20 November 1946 adalah",
+      "correct_answer": "I Gusti Ngurah Rai",
+      "incorrect_answers": [
+        "I Gusti Ketut Jelantik",
+        "I Gusti Ketut Pudja",
+        "I Gusti Ngurah Made Agung"
+      ]
     },
     {
       "category": "Entertainment: Video Games",
@@ -37,10 +41,10 @@
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Siapakah pahlawan Indonesia yang gugur ketika berkonfrontasi dengan Belanda di Papua Nugini?",
-      "correct_answer": "Yos Sudarso",
+      "question": "Siapakah pahlawan Indonesia yang gugur ketika berkonfrontasi dengan Belanda di laut Papua?",
+      "correct_answer": "Laksamana Yos Sudarso",
       "incorrect_answers": [
-        "Johanes Farrelius Kevin",
+        "Jenderal Abdul Haris Nasution",
         "Teuku Abdul Hamid Azwar",
         "Hermann Goring"
       ]
@@ -50,16 +54,20 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "Kapan Indonesia menyatakan kemerdekaannya?",
-      "correct_answer": "17 Agustus",
-      "incorrect_answers": ["4 Juli", "25 Desember", "15 Agustus"]
+      "correct_answer": "17 Agustus 1945",
+      "incorrect_answers": [
+        "18 Agustus 1945",
+        "25 Desember 1949",
+        "20 Mei 1947"
+      ]
     },
     {
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "hard",
-      "question": "Benarkah Heiho adalah tentara pembantu pada masa penjajahan Jepang?",
-      "correct_answer": "True",
-      "incorrect_answers": ["False"]
+      "question": "Benarkah Jenderal Soedirman merupakan salah satu pahlawan Indonesia di era penjajahan Jepang?",
+      "correct_answer": "Tidak",
+      "incorrect_answers": ["Benar", "Tidak tahu", "Bisa jadi"]
     },
     {
       "category": "Entertainment: Video Games",
@@ -73,9 +81,13 @@
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Apakah bangsa Indonesia sudah sungguh-sungguh merdeka saat ini?",
-      "correct_answer": "Belum tentu",
-      "incorrect_answers": ["Sudah", "Tidak tahu"]
+      "question": "Siapakah yang menjadi pemimpin pemberontakan milisi PETA di Blitar?",
+      "correct_answer": "Soeprijadi",
+      "incorrect_answers": [
+        "Laksamana Maeda",
+        "Heinz Guderian",
+        "Zainal Mustofa"
+      ]
     },
     {
       "category": "Entertainment: Video Games",
@@ -83,15 +95,15 @@
       "difficulty": "medium",
       "question": "Semangat apa yang patut kita teladani dari para pahlawan?",
       "correct_answer": "Daya Juang",
-      "incorrect_answers": ["Malas", "Foya-foya"]
+      "incorrect_answers": ["Malas", "Foya-foya", "Berkhianat"]
     },
     {
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Patriot adalah bahasa inggris dari pahlawan.",
-      "correct_answer": "True",
-      "incorrect_answers": ["False"]
+      "question": "Siapa pahlawan Indonesia yang memimpin perlawanan dalam Pertempuran Surabaya?",
+      "correct_answer": "Bung Tomo",
+      "incorrect_answers": ["Bung Hatta", "Tan Malaka", "Bung Karno"]
     }
   ]
 }

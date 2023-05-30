@@ -12,7 +12,7 @@ import "../dist/css/quiz.css";
 
 import data from "../components/data.json";
 
-const correctAnswers = [0, 0, 1, 0, 2, 1, 1, 0, 0, 1];
+const correctAnswers = [2, 3, 2, 2, 0, 2, 1, 2, 1, 2];
 const totalQuestions = data.results.length;
 
 export default function App() {
