@@ -25,6 +25,7 @@ button {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  text-align:center;
 }
 
 .answers {
