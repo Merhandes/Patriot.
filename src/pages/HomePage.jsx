@@ -17,18 +17,18 @@ import { useEffect, useState } from "react";
 const HomePage = () => {
   let navigate = useNavigate();
 
-  const url = 'https://indonesia-public-static-api.vercel.app/api/heroes';
+  const url = "https://indonesia-public-static-api.vercel.app/api/heroes";
   const [products, setProducts] = useState([]);
 
-  const getDataProducts = async()=> {
-      const response = await fetch(url);
-      const dataProduct = await response.json();
-      setProducts(dataProduct);
-  }
+  const getDataProducts = async () => {
+    const response = await fetch(url);
+    const dataProduct = await response.json();
+    setProducts(dataProduct);
+  };
 
-  useEffect( ()=> {
-      getDataProducts();
-  })
+  useEffect(() => {
+    getDataProducts();
+  });
 
   return (
     <div className="homepage">
