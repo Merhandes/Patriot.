@@ -1,75 +1,76 @@
-.footer{
+.footer {
     width: 100%;
     min-height: 60vh;
-}
-
-.footer .row:nth-child(1) h3{
+  }
+  
+  .footer .row:nth-child(1) h3 {
     color: var(--color-text);
-}
-
-.footer .row:nth-child(1) .row:nth-child(1) .desc{
+  }
+  
+  .footer .row:nth-child(1) .row:nth-child(1) .desc {
     color: var(--color-text);
     font-size: 140px;
     line-height: 2;
-}
-
-.footer .no a,
-.footer .mail a{
+  }
+  
+  .footer .no a,
+  .footer .mail a {
     display: flex;
     align-items: center;
     color: black;
     column-gap: 5px;
-}
-
-.footer .no a:hover,
-.footer .mail a:hover{
+  }
+  
+  .footer .no a:hover,
+  .footer .mail a:hover {
     color: var(--secondary-color);
-
-}
-
-.footer .row:nth-child(1) .col:nth-child(2){
+  }
+  
+  .footer .row:nth-child(1) .col:nth-child(2) {
     gap: 10px;
-}
-
-.footer .row:nth-child(1) .col:nth-child(2) a{
+  }
+  
+  .footer .row:nth-child(1) .col:nth-child(2) a {
     color: black;
     text-decoration: none;
     font-size: 14px;
-}
-
-.footer .row:nth-child(1) .col:nth-child(2) a:hover{
+  }
+  
+  .footer .row:nth-child(1) .col:nth-child(2) a:hover {
     color: var(--secondary-color);
-}
-
-.footer .subscribes{
+  }
+  
+  .footer .subscribes {
     display: flex;
     align-items: center;
     gap: 2px;
-}
-
-.footer .subscribes input{
+  }
+  
+  .footer .subscribes input {
     width: 200px;
     height: 38px;
     padding: 5px;
-}
-
-.footerr .social{
+  }
+  
+  .footerr .social {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.footer .social i{
+  }
+  
+  .footer .social a {
     font-size: 24px;
     cursor: pointer;
     transition: all 0.3 ease;
-}
-
-.footer .social i:hover{
+    text-decoration: none;
+    color: gray;
+  }
+  
+  .footer .social a:hover {
     color: var(--secondary-color);
-
-}
-
-.footer .row:nth-child(2){
+  }
+  
+  .footer .row:nth-child(2) {
     margin-top: 100px;
-}
+  }
+  
