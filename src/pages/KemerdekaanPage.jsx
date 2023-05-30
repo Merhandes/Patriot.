@@ -14,7 +14,7 @@ const Kemerdekaan = () => {
                 Semua Pahlawan Pasca Kemerdekaan
               </h1>
               <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
-              Berikut adalah List Pahlawan Pasca Kemerdekaan.
+                Berikut adalah List Pahlawan Pasca Kemerdekaan.
               </p>
             </Col>
           </Row>
@@ -42,12 +42,9 @@ const Kemerdekaan = () => {
                     {pahlawan.descripion}
                   </p>
                   <div className="ket justify-content-between align-items-center px-3 pb-4 text-center">
-                    <button
-                      className="btn btn-danger rounded-1"
-                      href={pahlawan.url}
-                    >
+                    <a className="btn btn-danger rounded-1" href={pahlawan.url}>
                       {pahlawan.button}
-                    </button>
+                    </a>
                   </div>
                 </Col>
               );
