@@ -55,6 +55,163 @@ export const semuaPahlawan = [
     descripion:
       "Putra Dari Sultan Yogyakarta, melangsungkan perang lima tahun melawan pasukan kolonial Belanda.",
     button: "Lihat Selengkapnya",
+    delay: "1300",
+    url: "https://id.wikipedia.org/wiki/Diponegoro"
+  },
+  {
+    id: 2,
+    image: PahlawanImage2,
+    title: "Sisingamangaraja XII",
+    wilayah: "(Tapanuli, Sumatra)",
+    descripion:
+      "Pemimpin Batak yang melakukan kampanye gerilyawan melawan pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "1600",
+    url: "https://id.wikipedia.org/wiki/Sisingamangaraja_XII"
+  },
+  {
+    id: 3,
+    image: PahlawanImage3,
+    title: "Sultan Hassanuddin",
+    wilayah: "(Makassar, Sulawesi)",
+    descripion:
+      "Dijuluki Ayam Jantan dari Timur oleh Belanda, beliau melakukan perlawanan terhadap pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "1900",
+    url: "https://id.wikipedia.org/wiki/Sultan_Hasanuddin"
+  },
+  {
+    id: 4,
+    image: PahlawanImage4,
+    title: "I Gusti Ketut Jelantik",
+    wilayah: "(Bali)",
+    descripion:
+      "Pemimpin Bali yang melakukan perlawanan terhadap pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "",
+    url: "https://id.wikipedia.org/wiki/I_Gusti_Ketut_Jelantik"
+  },
+  {
+    id: 5,
+    image: PahlawanImage5,
+    title: "Kapitan Pattimura",
+    wilayah: "(Ambon, Maluku)",
+    descripion:
+      "Ia adalah pahlawan yang berjuang untuk Maluku melawan VOC Belanda, mantan sersan di militer Inggris.",
+    button: "Lihat Selengkapnya",
+    delay: "300",
+    url: "https://id.wikipedia.org/wiki/Pattimura"
+  },
+  {
+    id: 6,
+    image: PahlawanImage6,
+    title: "Zainal Mustofa",
+    wilayah: "(Tasikmalaya, Jawa)",
+    descripion:
+      "Pemimpin Islam yang melakukan perlawanan terhadap pasukan pendudukan Jepang.",
+    button: "Lihat Selengkapnya",
+    delay: "600",
+    url: "https://id.wikipedia.org/wiki/Zainal_Mustafa"
+  },
+  {
+    id: 7,
+    image: PahlawanImage7,
+    title: "Soeprijadi",
+    wilayah: "(Blitar, Jawa)",
+    descripion:
+      "Selama masa pendudukan Jepang di Indonesia, ia menjadi pemimpin pemberontakan milisi PETA di Blitar.",
+    button: "Lihat Selengkapnya",
+    delay: "",
+    url: "https://id.wikipedia.org/wiki/Soeprijadi"
+  },
+  {
+    id: 8,
+    image: PahlawanImage8,
+    title: "Bung Tomo",
+    wilayah: "(Surabaya, Jawa)",
+    descripion:
+      "Pemimpin militer yang memimpin perlawanan dalam Pertempuran Surabaya.",
+    button: "Lihat Selengkapnya",
+    delay: "300",
+    url: "https://id.wikipedia.org/wiki/Sutomo"
+  },
+  {
+    id: 9,
+    image: PahlawanImage9,
+    title: "Jenderal Soedirman",
+    wilayah: "(Ambarawa, Jawa)",
+    descripion:
+      "Komandan Ketua Tentara Nasional Indonesia pada saat Revolusi Nasional, sosok yang dihormati di Indonesia.",
+    button: "Lihat Selengkapnya",
+    delay: "600",
+    url: "https://id.wikipedia.org/wiki/Soedirman"
+  },
+  {
+    id: 10,
+    image: PahlawanImage10,
+    title: "I Gusti Ngurah Rai",
+    wilayah: "(Bali)",
+    descripion:
+      "Memimpin militer Bali saat Revolusi Nasional langsung perlawanan bersenjata anti-Belanda di Bali. ",
+    button: "Lihat Selengkapnya",
+    delay: "",
+    url: "https://id.wikipedia.org/wiki/I_Gusti_Ngurah_Rai"
+  },
+  {
+    id: 11,
+    image: PahlawanImage11,
+    title: "Djamin Ginting",
+    wilayah: "(Medan, Sumatra)",
+    descripion:
+      "Pejuang kemerdekaan menentang pemerintah Hindia Belanda di Tanah Karo.",
+    button: "Lihat Selengkapnya",
+    delay: "300",
+    url: "https://id.wikipedia.org/wiki/Jamin_Ginting"
+  },
+  {
+    id: 12,
+    image: PahlawanImage12,
+    title: "Yos Sudarso",
+    wilayah: "(Papua)",
+    descripion:
+      "Komodor Angkatan Laut; terbunuh saat konfrontasi dengan Belanda di Nugini Belanda.",
+    button: "Lihat Selengkapnya",
+    delay: "600",
+    url: "https://id.wikipedia.org/wiki/Yos_Sudarso"
+  },
+  {
+    id: 13,
+    image: PahlawanImage13,
+    title: "Teuku Abdul Hamid Azwar",
+    wilayah: "(Aceh)",
+    descripion:
+      "Memimpin gerilyawan Aceh dalam serangan dan sabotase terhadap pasukan pendudukan Jepang.",
+    button: "Lihat Selengkapnya",
+    delay: "",
+    url: "https://id.wikipedia.org/wiki/Teuku_Abdul_Hamid_Azwar"
+  },
+  {
+    id: 14,
+    image: PahlawanImage14,
+    title: "Haji Madriyan",
+    wilayah: "(Indramayu, Jawa)",
+    descripion:
+      "Memimpin rakyat Indramayu dalam melawan kekejaman pasukan pendudukan Jepang.",
+    button: "Lihat Selengkapnya",
+    delay: "300",
+    url: "https://ipsgampang.blogspot.com/2023/04/haji-madriyan-h-madriyas.html"
+  }
+];
+
+export const PahlawanBelanda = [
+  {
+    id: 1,
+    image: PahlawanImage1,
+    title: "Pangeran Diponegoro",
+    wilayah: "(Yogyakarta, Jawa)",
+    descripion:
+      "Putra Dari Sultan Yogyakarta, melangsungkan perang lima tahun melawan pasukan kolonial Belanda.",
+    button: "Lihat Selengkapnya",
     delay: "",
     url: "https://id.wikipedia.org/wiki/Diponegoro"
   },
@@ -99,164 +256,7 @@ export const semuaPahlawan = [
     descripion:
       "Ia adalah pahlawan yang berjuang untuk Maluku melawan VOC Belanda, mantan sersan di militer Inggris.",
     button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Pattimura"
-  },
-  {
-    id: 6,
-    image: PahlawanImage6,
-    title: "Zainal Mustofa",
-    wilayah: "(Tasikmalaya, Jawa)",
-    descripion:
-      "Pemimpin Islam yang melakukan perlawanan terhadap pasukan pendudukan Jepang.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Zainal_Mustafa"
-  },
-  {
-    id: 7,
-    image: PahlawanImage7,
-    title: "Soeprijadi",
-    wilayah: "(Blitar, Jawa)",
-    descripion:
-      "Selama masa pendudukan Jepang di Indonesia, ia menjadi pemimpin pemberontakan milisi PETA di Blitar.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Soeprijadi"
-  },
-  {
-    id: 8,
-    image: PahlawanImage8,
-    title: "Bung Tomo",
-    wilayah: "(Surabaya, Jawa)",
-    descripion:
-      "Pemimpin militer yang memimpin perlawanan dalam Pertempuran Surabaya.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Sutomo"
-  },
-  {
-    id: 9,
-    image: PahlawanImage9,
-    title: "Jenderal Soedirman",
-    wilayah: "(Ambarawa, Jawa)",
-    descripion:
-      "Komandan Ketua Tentara Nasional Indonesia pada saat Revolusi Nasional, sosok yang dihormati di Indonesia.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Soedirman"
-  },
-  {
-    id: 10,
-    image: PahlawanImage10,
-    title: "I Gusti Ngurah Rai",
-    wilayah: "(Bali)",
-    descripion:
-      "Memimpin militer Bali saat Revolusi Nasional langsung perlawanan bersenjata anti-Belanda di Bali. ",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/I_Gusti_Ngurah_Rai"
-  },
-  {
-    id: 11,
-    image: PahlawanImage11,
-    title: "Djamin Ginting",
-    wilayah: "(Medan, Sumatra)",
-    descripion:
-      "Pejuang kemerdekaan menentang pemerintah Hindia Belanda di Tanah Karo.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Jamin_Ginting"
-  },
-  {
-    id: 12,
-    image: PahlawanImage12,
-    title: "Yos Sudarso",
-    wilayah: "(Papua)",
-    descripion:
-      "Komodor Angkatan Laut; terbunuh saat konfrontasi dengan Belanda di Nugini Belanda.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Yos_Sudarso"
-  },
-  {
-    id: 13,
-    image: PahlawanImage13,
-    title: "Teuku Abdul Hamid Azwar",
-    wilayah: "(Aceh)",
-    descripion:
-      "Memimpin gerilyawan Aceh dalam serangan dan sabotase terhadap pasukan pendudukan Jepang.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/Teuku_Abdul_Hamid_Azwar"
-  },
-  {
-    id: 14,
-    image: PahlawanImage14,
-    title: "Haji Madriyan",
-    wilayah: "(Indramayu, Jawa)",
-    descripion:
-      "Memimpin rakyat Indramayu dalam melawan kekejaman pasukan pendudukan Jepang.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://ipsgampang.blogspot.com/2023/04/haji-madriyan-h-madriyas.html"
-  }
-];
-
-export const PahlawanBelanda = [
-  {
-    id: 1,
-    image: PahlawanImage1,
-    title: "Pangeran Diponegoro",
-    wilayah: "(Yogyakarta, Jawa)",
-    descripion:
-      "Putra Dari Sultan Yogyakarta, melangsungkan perang lima tahun melawan pasukan kolonial Belanda.",
-    button: "Lihat Selengkapnya",
-    delay: "1300",
-    url: "https://id.wikipedia.org/wiki/Diponegoro"
-  },
-  {
-    id: 2,
-    image: PahlawanImage2,
-    title: "Sisingamangaraja XII",
-    wilayah: "(Tapanuli, Sumatra)",
-    descripion:
-      "Pemimpin Batak yang melakukan kampanye gerilyawan melawan pasukan kolonial Belanda.",
-    button: "Lihat Selengkapnya",
-    delay: "1600",
-    url: "https://id.wikipedia.org/wiki/Sisingamangaraja_XII"
-  },
-  {
-    id: 3,
-    image: PahlawanImage3,
-    title: "Sultan Hassanuddin",
-    wilayah: "(Makassar, Sulawesi)",
-    descripion:
-      "Dijuluki Ayam Jantan dari Timur oleh Belanda, beliau melakukan perlawanan terhadap pasukan kolonial Belanda.",
-    button: "Lihat Selengkapnya",
-    delay: "1900",
-    url: "https://id.wikipedia.org/wiki/Sultan_Hasanuddin"
-  },
-  {
-    id: 4,
-    image: PahlawanImage4,
-    title: "I Gusti Ketut Jelantik",
-    wilayah: "(Bali)",
-    descripion:
-      "Pemimpin Bali yang melakukan perlawanan terhadap pasukan kolonial Belanda.",
-    button: "Lihat Selengkapnya",
-    delay: "",
-    url: "https://id.wikipedia.org/wiki/I_Gusti_Ketut_Jelantik"
-  },
-  {
-    id: 5,
-    image: PahlawanImage5,
-    title: "Kapitan Pattimura",
-    wilayah: "(Ambon, Maluku)",
-    descripion:
-      "Ia adalah pahlawan yang berjuang untuk Maluku melawan VOC Belanda, mantan sersan di militer Inggris.",
-    button: "Lihat Selengkapnya",
-    delay: "300",
+    delay: "200",
     url: "https://id.wikipedia.org/wiki/Pattimura"
   }
 ];
@@ -270,7 +270,7 @@ export const pahlawanJepang = [
     descripion:
       "Pemimpin Islam yang melakukan perlawanan terhadap pasukan pendudukan Jepang.",
     button: "Lihat Selengkapnya",
-    delay: "1300",
+    delay: "",
     url: "https://id.wikipedia.org/wiki/Zainal_Mustafa"
   },
   {
@@ -281,7 +281,7 @@ export const pahlawanJepang = [
     descripion:
       "Selama masa pendudukan Jepang di Indonesia, ia menjadi pemimpin pemberontakan milisi PETA di Blitar.",
     button: "Lihat Selengkapnya",
-    delay: "1600",
+    delay: "200",
     url: "https://id.wikipedia.org/wiki/Soeprijadi"
   },
   {
@@ -292,7 +292,7 @@ export const pahlawanJepang = [
     descripion:
       "Memimpin gerilyawan Aceh dalam serangan dan sabotase terhadap pasukan pendudukan Jepang.",
     button: "Lihat Selengkapnya",
-    delay: "1900",
+    delay: "400",
     url: "https://id.wikipedia.org/wiki/Teuku_Abdul_Hamid_Azwar"
   },
   {
@@ -317,7 +317,7 @@ export const pahlawanKemerdekaan = [
     descripion:
       "Pemimpin militer yang memimpin perlawanan dalam Pertempuran Surabaya.",
     button: "Lihat Selengkapnya",
-    delay: "1300",
+    delay: "",
     url: "https://id.wikipedia.org/wiki/Sutomo"
   },
   {
@@ -328,7 +328,7 @@ export const pahlawanKemerdekaan = [
     descripion:
       "Komandan Ketua Tentara Nasional Indonesia pada saat Revolusi Nasional, sosok yang dihormati di Indonesia.",
     button: "Lihat Selengkapnya",
-    delay: "1600",
+    delay: "200",
     url: "https://id.wikipedia.org/wiki/Soedirman"
   },
   {
@@ -339,7 +339,7 @@ export const pahlawanKemerdekaan = [
     descripion:
       "Memimpin militer Bali saat Revolusi Nasional langsung perlawanan bersenjata anti-Belanda di Bali.",
     button: "Lihat Selengkapnya",
-    delay: "1900",
+    delay: "400",
     url: "https://id.wikipedia.org/wiki/I_Gusti_Ngurah_Rai"
   },
   {
@@ -361,7 +361,7 @@ export const pahlawanKemerdekaan = [
     descripion:
       "Komodor Angkatan Laut; terbunuh saat konfrontasi dengan Belanda di Nugini Belanda.",
     button: "Lihat Selengkapnya",
-    delay: "300",
+    delay: "200",
     url: "https://id.wikipedia.org/wiki/Yos_Sudarso"
   }
 ];
