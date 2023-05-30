@@ -50,18 +50,18 @@ export function Question({ result, index }) {
       <section className="btn-group" style={{ display: "flex" }}>
         {index !== 0 && (
           <Button
-            text="prev"
+            text="Soal Sebelumnya"
             func={() => scrollToElem(`question-${index - 1}`)}
           />
         )}
         {index !== totalQuestions - 1 && (
           <Button
-            text="next"
+            text="Soal Berikutnya"
             func={() => scrollToElem(`question-${index + 1}`)}
           />
         )}
         {index === totalQuestions - 1 && (
-          <Button text="finish" func={() => scrollToElem("finish")} />
+          <Button text="Selesai" func={() => scrollToElem("finish")} />
         )}
       </section>
     </section>
@@ -123,9 +123,9 @@ function Button({ text, func }) {
 function Start() {
   return (
     <section className="fullpage-center" id="start">
-      <h1>Quiz Time!!!</h1>
-      <h2>How much you know about them?</h2>
-      <Button text="Let's go!" func={() => scrollToElem("question-0")} />
+      <h1>Waktunya Quiz!!!</h1>
+      <h2>Seberapa banyak yang kamu ketahui tentang pahlawan Indonesia?</h2>
+      <Button text="Ayo Mulai" func={() => scrollToElem("question-0")} />
     </section>
   );
 }
@@ -134,22 +134,25 @@ function Finish() {
   const { chosenAnswers } = useContext(Store);
   const textCompleted = (
     <Fragment>
-      <h3>Well done!</h3>
+      <h3>Selamat!</h3>
       <h4>
-        You scored {calculateResult(correctAnswers, chosenAnswers)} out of{" "}
-        {totalQuestions}
+        Kamu mendapatkan skor {calculateResult(correctAnswers, chosenAnswers)}{" "}
+        dari total skor {totalQuestions}
       </h4>
-      <Button text="start over" func={() => window.location.reload()} />
+      <Button text="Mulai Lagi" func={() => window.location.reload()} />
     </Fragment>
   );
 
   const textIncomplete = (
     <Fragment>
-      <h4>Opps, looks like you haven't answered all the questions</h4>
-      <p>Scroll up to see which questions you've missed out </p>
+      <h4>Sepertinya kamu belum menjawab semua pertanyaan</h4>
+      <p>Scroll ke atas untuk melihat pertanyaan mana yang kamu lewatkan</p>
     </Fragment>
   );
 
+  /** Questions answered out of sequence will cause array to have `undefineds`
+   * this variable counts the length with those filtered out
+   */
   const answeredQuestions = chosenAnswers.filter((ar) => ar !== undefined)
     .length;
 
