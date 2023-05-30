@@ -20,15 +20,19 @@ const HomePage = () => {
   const url = "https://indonesia-public-static-api.vercel.app/api/heroes";
   const [products, setProducts] = useState([]);
 
-  const getDataProducts = async () => {
-    const response = await fetch(url);
-    const dataProduct = await response.json();
-    setProducts(dataProduct);
-  };
-
   useEffect(() => {
+    const getDataProducts = async () => {
+      try {
+        const response = await fetch(url);
+        const dataProduct = await response.json();
+        setProducts(dataProduct);
+      } catch (error) {
+        console.error("Error:", error);
+      }
+    };
+
     getDataProducts();
-  });
+  }, []);
 
   return (
     <div className="homepage">
