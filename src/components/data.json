@@ -1,86 +1,89 @@
 {
-    "response_code": 0,
-    "results": [
-      {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Siapakah pahlawan Indonesia yang lahir di Bukittinggi?",
-        "correct_answer": "Bung Hatta",
-        "incorrect_answers": ["Moh. Yamin", "Siti Nurbaya"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "boolean",
-        "difficulty": "easy",
-        "question": "Indonesia pernah dijajah oleh bangsa Jerman",
-        "correct_answer": "False",
-        "incorrect_answers": ["True"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Berikut pahlawan Indonesia yang memperjuangkan kemerdekaan, kecuali...",
-        "correct_answer": "Farelius",
-        "incorrect_answers": ["Bung Hatta", "Sutan Syahrir"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Pahlawan Indonesia yang gugur ketika menerbangkan pesawat?",
-        "correct_answer": "Adi Sucipto",
-        "incorrect_answers": ["Jendral De Kock", "Thomas Matulessy"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Kapan Indonesia menyatakan kemerdekaannya?",
-        "correct_answer": "17 Agustus",
-        "incorrect_answers": ["10 Agustus", "25 Desember", "15 Juni"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "boolean",
-        "difficulty": "hard",
-        "question": "Benarkah Heiho adalah tentara pembantu pada masa penjajahan Jepang?",
-        "correct_answer": "True",
-        "incorrect_answers": ["False"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "easy",
-        "question": "Hari Pahlawan diperingati setiap tanggal?",
-        "correct_answer": "10 November",
-        "incorrect_answers": ["10 Januari", "2 Mei", "28 Oktober"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "hard",
-        "question": "Apakah bangsa Indonesia sudah sungguh-sungguh merdeka saat ini?",
-        "correct_answer": "Belum tentu",
-        "incorrect_answers": ["Sudah", "Tidak tahu"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "multiple",
-        "difficulty": "medium",
-        "question": "Semangat apa yang patut kita teladani dari para pahlawan?",
-        "correct_answer": "Daya Juang",
-        "incorrect_answers": ["Malas", "Foya-foya"]
-      },
-      {
-        "category": "Entertainment: Video Games",
-        "type": "boolean",
-        "difficulty": "easy",
-        "question": "Patriot adalah bahasa inggris dari pahlawan.",
-        "correct_answer": "True",
-        "incorrect_answers": ["False"]
-      }
-    ]
-  }
-  
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Siapakah pahlawan Indonesia yang mendapat julukan Ayam Jantan dari Timur?",
+      "correct_answer": "Sultan Hassanuddin",
+      "incorrect_answers": [
+        "Zainal Mustofa",
+        "Sisingamangaraja XII",
+        "I Gusti Ngurah Rai"
+      ]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Indonesia pernah dijajah oleh bangsa Jerman",
+      "correct_answer": "Salah",
+      "incorrect_answers": ["Benar", "Mungkin", "Tanya Google"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Berikut pahlawan Indonesia yang memperjuangkan kemerdekaan, kecuali...",
+      "correct_answer": "Farelius",
+      "incorrect_answers": ["Bung Hatta", "Sutan Syahrir"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Pahlawan Indonesia yang gugur ketika menerbangkan pesawat?",
+      "correct_answer": "Adi Sucipto",
+      "incorrect_answers": ["Jendral De Kock", "Thomas Matulessy"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Kapan Indonesia menyatakan kemerdekaannya?",
+      "correct_answer": "17 Agustus",
+      "incorrect_answers": ["10 Agustus", "25 Desember", "15 Juni"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "hard",
+      "question": "Benarkah Heiho adalah tentara pembantu pada masa penjajahan Jepang?",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Hari Pahlawan diperingati setiap tanggal?",
+      "correct_answer": "10 November",
+      "incorrect_answers": ["10 Januari", "2 Mei", "28 Oktober"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Apakah bangsa Indonesia sudah sungguh-sungguh merdeka saat ini?",
+      "correct_answer": "Belum tentu",
+      "incorrect_answers": ["Sudah", "Tidak tahu"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Semangat apa yang patut kita teladani dari para pahlawan?",
+      "correct_answer": "Daya Juang",
+      "incorrect_answers": ["Malas", "Foya-foya"]
+    },
+    {
+      "category": "Entertainment: Video Games",
+      "type": "boolean",
+      "difficulty": "easy",
+      "question": "Patriot adalah bahasa inggris dari pahlawan.",
+      "correct_answer": "True",
+      "incorrect_answers": ["False"]
+    }
+  ]
+}
