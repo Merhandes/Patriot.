@@ -1,48 +1,34 @@
-/* :root {
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 16px;
-  }
-  
-  :root,
-  body {
-    margin: 0;
-    padding: 0;
-  }
-   */
-   h1 {
-    font-size: 2.2rem;
-  }
-  
-  button {
-    border: 5px solid #dc3545;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 1rem;
-    background-color: #dc3545;
-  }
-  .btn-group > button:last-of-type {
-    margin-left: 0.5rem;
-  }
-  
-  .btn-group,
-  .fullpage-center {
-    display: flex;
-  }
-  
-  .fullpage-center {
-    flex-direction: column;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .answers {
-    text-align: left;
-    margin-bottom: 1rem;
-    line-height: 2rem;
-  }
-  
-  
+h1 {
+  font-size: 2.2rem;
+}
+
+button {
+  border: 5px solid #dc3545;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: #dc3545;
+}
+.btn-group > button:last-of-type {
+  margin-left: 0.5rem;
+}
+
+.btn-group,
+.fullpage-center {
+  display: flex;
+}
+
+.fullpage-center {
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.answers {
+  text-align: left;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}

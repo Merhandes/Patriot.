@@ -44,9 +44,22 @@ const FooterComponent = () => {
               </button>
             </div>
             <div className="social mt-3">
-              <a className="facebook fa-brands fa-facebook"></a>
-              <a className="twitter fa-brands fa-twitter"></a>
-              <a className=" fa-brands fa-youtube"></a>
+              <a
+                href="https://www.instagram.com/jokowi/"
+                className="facebook fa-brands fa-instagram"
+              ></a>
+              <a
+                href="https://www.facebook.com/Jokowi?mibextid=ZbWKwL"
+                className="facebook fa-brands fa-facebook"
+              ></a>
+              <a
+                href="https://twitter.com/jokowi?t=y2yQ_uggTbI44bbvwAqDDA&s=08"
+                className="twitter fa-brands fa-twitter"
+              ></a>
+              <a
+                href="https://www.youtube.com/@Jokowi"
+                className=" fa-brands fa-youtube"
+              ></a>
             </div>
           </Col>
         </Row>

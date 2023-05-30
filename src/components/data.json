@@ -17,7 +17,7 @@
       "category": "Entertainment: Video Games",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Indonesia pernah dijajah oleh bangsa Jerman",
+      "question": "Apakah Indonesia pernah dijajah oleh bangsa Jerman?",
       "correct_answer": "Salah",
       "incorrect_answers": ["Benar", "Mungkin", "Tanya Google"]
     },
@@ -25,17 +25,25 @@
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Berikut pahlawan Indonesia yang memperjuangkan kemerdekaan, kecuali...",
-      "correct_answer": "Farelius",
-      "incorrect_answers": ["Bung Hatta", "Sutan Syahrir"]
+      "question": "Berikut pahlawan Indonesia yang memperjuangkan kemerdekaan Indonesia, kecuali...",
+      "correct_answer": "Sultan Bayezid II",
+      "incorrect_answers": [
+        "Tan Malaka",
+        "I Gusti Ketut Jelantik",
+        "Djamin Ginting"
+      ]
     },
     {
       "category": "Entertainment: Video Games",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Pahlawan Indonesia yang gugur ketika menerbangkan pesawat?",
-      "correct_answer": "Adi Sucipto",
-      "incorrect_answers": ["Jendral De Kock", "Thomas Matulessy"]
+      "question": "Siapakah pahlawan Indonesia yang gugur ketika berkonfrontasi dengan Belanda di Papua Nugini?",
+      "correct_answer": "Yos Sudarso",
+      "incorrect_answers": [
+        "Johanes Farrelius Kevin",
+        "Teuku Abdul Hamid Azwar",
+        "Hermann Goring"
+      ]
     },
     {
       "category": "Entertainment: Video Games",
@@ -43,7 +51,7 @@
       "difficulty": "easy",
       "question": "Kapan Indonesia menyatakan kemerdekaannya?",
       "correct_answer": "17 Agustus",
-      "incorrect_answers": ["10 Agustus", "25 Desember", "15 Juni"]
+      "incorrect_answers": ["4 Juli", "25 Desember", "15 Agustus"]
     },
     {
       "category": "Entertainment: Video Games",
